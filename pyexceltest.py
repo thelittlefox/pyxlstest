@@ -1,5 +1,5 @@
 import xlrd
-fname =r'E:\Documents\github\PyExcelTest\test.xls'
+fname =r'test.xls'
 bk = xlrd.open_workbook(fname)
 shxrange = range(bk.nsheets)
 
